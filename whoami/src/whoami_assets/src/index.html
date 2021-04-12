@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>whoami</title>
+    <base href="/" />
+
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <img src="origyn_logo.png" width="300px" alt="ORIGYN logo" />
+    <br>
+    <section>
+      <label for="mnemonic">Enter your mnemonic: &nbsp;</label>
+      <input id="mnemonic" alt="mnemonic" type="text" />
+      <button id="generateMnemonic">Random</button>
+    </section>
+    <section>
+      <label for="backendCanisterId">Enter back-end canister id: &nbsp;</label>
+      <input id="backendCanisterId" alt="backendCanisterId" type="text" />
+    </section>
+    <section>
+      <button id="clickMeBtn">Update Agent</button>
+    </section>
+    <br /><br /><br />
+    <section>
+      <button id="whoami">whoami()</button>
+    </section>
+    <section id="whoamiResponse"></section>
+  </body>
+</html>
